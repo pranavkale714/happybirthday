@@ -27,9 +27,9 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
-  photo: "./img/irene.jpg",       // Place your photo in the img/ folder
-  music: "./music/hbd.mpeg",      // Place your music in the music/ folder
+  name: "",
+  photo: "./img/rutuja.jpg",       // Place your photo in the img/ folder
+  music: "./music/hbd.mp3",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
   // A toggle button lets the viewer switch between dark & light mode.
@@ -54,9 +54,9 @@ const CONFIG = {
   // Add, remove, duplicate, or reorder as you wish!
   sections: [
     {
-      type: "greeting",
-      title: "Hi",
-      subtitle: "I really like your name btw!",
+       type: "greeting",
+       title: "Hello Rutuja ❤️",
+       subtitle: "Today is all about celebrating you!",
     },
     {
       type: "countdown",
@@ -65,29 +65,28 @@ const CONFIG = {
     },
     {
       type: "announcement",
-      text: "It's your birthday!! :D",
+      text: "It's your birthday Rutuja!!",
     },
     {
       type: "chatbox",
-      message:
-        "Happy birthday to youu!! Wishing you a wonderful year ahead filled with joy, love, and endless happiness!",
+      message:"Happy Birthday, Rutuja! ❤️ I hope your day is filled with happiness, laughter, and lots of unforgettable memories. Keep smiling and stay the amazing person you are! 🎂✨",
       buttonText: "Send",
     },
     {
       type: "ideas",
       lines: [
-        "That's what I was going to do.",
-        "But then I stopped.",
-        "I realised, I wanted to do something <strong>special</strong>.",
-        "Because,",
-        "You are Special <span>:)</span>",
+          "I could have simply wished you...",
+          "But you deserve something different.",
+          "Something <strong>special</strong>.",
+          "Because...",
+          "You truly make people smile. ❤️",
       ],
       bigLetters: "SO",
     },
     {
-      type: "quote",
+      type: "",
       text: "The more you praise and celebrate your life, the more there is in life to celebrate.",
-      author: "Oprah Winfrey",
+      
     },
     {
       type: "stars",
@@ -99,8 +98,9 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishTitle: "Happy Birthday, Rutuja!",
+      wishText:"May all your dreams come true, and may every day bring you happiness, success, and beautiful memories. Keep shining! ✨❤️",
+
     },
     {
       type: "fireworks",
@@ -112,8 +112,8 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Okay, now come back and tell me if you liked it.",
-      replayText: "Or click, if you want to watch it again.",
+      text: "I hope this little surprise made you smile. Have the happiest birthday ever! ❤️",
+      replayText: "Click here to relive the surprise! 🎉", 
     },
   ],
 };

@@ -16,10 +16,17 @@
       `;
       // Split wish title into spans for stagger animation
       const hbd = div.querySelector(".wish-hbd");
-      hbd.innerHTML = hbd.textContent
-        .split("")
-        .map((ch) => `<span>${ch}</span>`)
-        .join("");
+      const title = section.wishTitle || "Happy Birthday!";
+
+      hbd.innerHTML = title
+      .replace(/<br\s*\/?>/gi, "|||BR|||")
+      .split("")
+      .map((ch) => {
+           if (ch === " ") return "<span>&nbsp;</span>";
+           return `<span>${ch}</span>`;
+          })
+      .join("")
+     .replace(/\|\|\|BR\|\|\|/g, "<br>");
 
       container.appendChild(div);
       return div;
