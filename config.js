@@ -27,8 +27,8 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "",
-  photo: "./img/rutuja.jpg",       // Place your photo in the img/ folder
+  name: "Mummy & Pappa ❤️",
+  photo: "./img/photo.jpeg",       // Place your photo in the img/ folder
   music: "./music/hbd.mp3",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
@@ -55,8 +55,8 @@ const CONFIG = {
   sections: [
     {
        type: "greeting",
-       title: "Hello Rutuja ❤️",
-       subtitle: "Today is all about celebrating you!",
+       title: "Happy Anniversary",
+       subtitle: "Today we celebrate your beautiful journey together!",
     },
     {
       type: "countdown",
@@ -65,23 +65,23 @@ const CONFIG = {
     },
     {
       type: "announcement",
-      text: "It's your birthday Rutuja!!",
+      text: "Happy Wedding Anniversary, Mummy & Pappa! 💖",
     },
     {
       type: "chatbox",
-      message:"Happy Birthday, Rutuja! ❤️ I hope your day is filled with happiness, laughter, and lots of unforgettable memories. Keep smiling and stay the amazing person you are! 🎂✨",
+      message:"Happy Anniversary, Mummy & Pappa! ❤️ Thank you for showing us what true love, care, and togetherness look like. Wishing you many more years of happiness, good health, and beautiful memories together. 💕🥰",
       buttonText: "Send",
     },
     {
       type: "ideas",
       lines: [
-          "I could have simply wished you...",
-          "But you deserve something different.",
-          "Something <strong>special</strong>.",
-          "Because...",
-          "You truly make people smile. ❤️",
+           "Today isn't just another day...",
+    "It's a celebration of your love.",
+    "A journey filled with happiness, trust, and togetherness.",
+    "Thank you for being the best parents.",
+    "May your bond grow stronger every year. ❤️",
       ],
-      bigLetters: "SO",
+      bigLetters: "LOVE",
     },
     {
       type: "",
@@ -98,8 +98,8 @@ const CONFIG = {
     },
     {
       type: "profile",
-      wishTitle: "Happy Birthday, Rutuja!",
-      wishText:"May all your dreams come true, and may every day bring you happiness, success, and beautiful memories. Keep shining! ✨❤️",
+      wishTitle: "Happy Anniversary ❤️",
+      wishText:"Dear Mummy & Pappa,\nThank you for filling our lives with love, care, and endless support. May God bless you with many more years of togetherness, happiness, and good health. We love you both so much! ❤️🥰",
 
     },
     {
@@ -112,7 +112,7 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "I hope this little surprise made you smile. Have the happiest birthday ever! ❤️",
+      text: "I hope this little surprise brings a smile to your faces. Wishing you both a lifetime of love, laughter, and happiness. Happy Anniversary! ❤️",
       replayText: "Click here to relive the surprise! 🎉", 
     },
   ],
